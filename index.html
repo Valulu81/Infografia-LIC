@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresiones Regulares</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <form id="registroForm">
+        <h2>Formulario de Registro</h2>
+        <p>Con este formulario puedes probar la funcionalidad de las expresiones regulares de manera sencilla y rapida ingresando valores a validar.</p>
+        <label>Nombre completo:</label><br>
+        <input type="text" id="nombre">
+        <div id="errorNombre" class="error"></div><br>
+
+        <label>Correo electrónico:</label><br>
+        <input type="text" id="email">
+        <div id="errorEmail" class="error"></div><br>
+
+        <label>Teléfono:</label><br>
+        <input type="text" id="telefono">
+        <div id="errorTelefono" class="error"></div><br>
+
+        <label>Contraseña:</label><br>
+        <input type="password" id="password">
+        <div id="errorPassword" class="error"></div><br>
+
+        <label>URL personal:</label><br>
+        <input type="text" id="url">
+        <div id="errorUrl" class="error"></div><br>
+        <div id="mensajeExito" class="exito"></div>
+        <button type="submit">Validar</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
